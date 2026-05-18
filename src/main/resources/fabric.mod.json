@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "svc-reconnecter",
+  "version": "${version}",
+  "name": "SVC Reconnecter",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/svc-reconnecter/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.gamma_02.svcReconnecter.client.SvcReconnecterClient"
+    ],
+    "main": [
+      "net.gamma_02.svcReconnecter.SvcReconnecter"
+    ]
+  },
+  "mixins": [
+    "svc-reconnecter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
