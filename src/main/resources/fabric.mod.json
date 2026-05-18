@@ -15,6 +15,9 @@
     ],
     "main": [
       "net.gamma_02.svcReconnecter.SvcReconnecter"
+    ],
+    "voicechat": [
+      "net.gamma_02.svcReconnecter.VCPlugin"
     ]
   },
   "mixins": [
@@ -23,6 +26,7 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "voicechat": ">=1.21.1-2.6.16"
   }
 }

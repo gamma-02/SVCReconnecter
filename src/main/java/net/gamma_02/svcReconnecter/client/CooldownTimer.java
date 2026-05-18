@@ -1,4 +1,4 @@
-package net.gamma_02.svcReconnecter;
+package net.gamma_02.svcReconnecter.client;
 
 import java.util.concurrent.ConcurrentHashMap;
 

@@ -1,4 +1,13 @@
 package net.gamma_02.svcReconnecter.client;
 
-public interface ReconnectableSocketImpl {
+import java.net.SocketException;
+
+public interface ReconnectableSocket {
+
+    void reconnectSocket() throws Exception;
+
+    void resetSocketTimeout() throws SocketException;
+
+
+    Object getReconnectLock();
 }

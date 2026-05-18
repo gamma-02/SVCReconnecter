@@ -1,4 +1,4 @@
-package net.gamma_02.svcReconnecter;
+package net.gamma_02.svcReconnecter.client;
 
 import de.maxhenkel.voicechat.api.RawUdpPacket;
 
